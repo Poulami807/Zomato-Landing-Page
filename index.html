@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato-Largest Food Delivery Network</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <!-- Google Fonts:Merriweather-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img src="./assets/logo.png" alt="logo" class="brand-logo" />
+        </div>
+        <div class="nav-items">
+          <div class="nav-item">
+            <button class="primary-button">Order Food</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero-container">
+        <div class="hero-image-container">
+          <img src="./assets/hero.jpg" alt="hero image" class="hero-image" />
+          <img
+            src="./assets/svg/heroShape.svg"
+            alt="hero image shape"
+            class="hero-image-shape"
+          />
+          <img
+            src="./assets/svg/herobgpattren.svg"
+            alt="hero image pattern"
+            class="hero-image-pattern"
+          />
+        </div>
+        <div class="hero-text-container">
+          <h1 class="heading-text">
+            Order food from favourite restaurants near you.
+          </h1>
+          <button class="primary-button">Order Now</button>
+        </div>
+      </section>
+      <!-- Chef video -->
+      <section class="video-container">
+        <div class="video-footage">
+          <iframe
+            src="https://player.vimeo.com/video/338947907?h=faf130875c&color=f7f7f7&title=0&byline=0&portrait=0"
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            class="chef-video"
+          ></iframe>
+        </div>
+        <p class="video-text">
+          Your food will be prepared safely with an experienced chef, without
+          compromising on the quality and hygiene.
+        </p>
+      </section>
+      <!-- food card lists -->
+      <section class="food-card-list-container">
+        <h2 class="heading-text" style="text-align: center;">Explore Our Menu</h2>
+        <div class="food-card-list-diagonal-bg"></div>
+        <div class="food-card-list">
+          <!-- Card 1 -->
+          <div class="food-card">
+            <img src="./assets/burger.jpg" alt="burger image" class="food-image">
+            <div class="food-description">
+              <h4 class="food-card-title">Burgers</h4>
+              <p class="food-card-restaurants">Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="food-card">
+            <img src="./assets/pizza.jpg" alt="pizza image" class="food-image">
+            <div class="food-description">
+              <h4 class="food-card-title">Pizza</h4>
+              <p class="food-card-restaurants">Pizza Hut, Domino's Pizza<span style="color: red;">+3</span></p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="food-card">
+            <img src="./assets/iceCream.jpg" alt="iceCream image" class="food-image">
+            <div class="food-description">
+              <h4 class="food-card-title">  Ice Creams</h4>
+              <p class="food-card-restaurants">Baskin Robins, Ibaco<span style="color: red;">+3</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resturants section -->
+      <section class="restaurants-container">
+        <div class="restaurants-heading">
+          <h2 class="heading-text" style="margin-bottom: 1rem;">Order From 100s of restaurants</h2>
+        </div>
+         <div class="restaurant-image-container">
+           <div class="restaurant-row1">
+             <img src="./assets/restaurant1.jpg" alt="restaurant image" class="restaurant1">
+            <img src="./assets/restaurant2.jpg" alt="restaurant image" class="restaurant2">
+           </div>
+
+           <div class="restaurant-row2">
+            <img src="./assets/restaurant3.jpg" alt="restaurant image" class="restaurant3">
+            <img src="./assets/restaurant4.jpg" alt="restaurant image" class="restaurant4">
+           </div>
+         </div> 
+      </section>
+      <!-- Stay updated section -->
+      <section class="stay-updated-container">
+        <div class="flex-container">
+          <h2 class="heading-text">Stay Updated</h2>
+          <div class="email-subscribe-container">
+            <input type="email" placeholder="email@email.com" class="email-field">
+            <button class="primary-button get-update-button">Get Updates</button>
+          </div>
+        </div>
+      </section>
+      <!-- quote section -->
+      <section class="quote-container">
+        <div class="quote-image-overlay"></div>
+        <p class="quote">
+          When a man's stomach is full it makes no difference whether he is rich
+          or poor.
+        </p>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <img src="./assets/logo.png" alt="logo" class="footer-logo-image">
+      <ul style="list-style-type: none;" class="footer-nav">
+        <li>Pricing</li>
+        <li>Terms and Conditions</li>
+        <li>Partnership</li>
+        <li>Career</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>
